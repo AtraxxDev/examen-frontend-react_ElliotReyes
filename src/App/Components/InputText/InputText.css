@@ -1,0 +1,33 @@
+.inputText-Box{
+    display: flex;
+    align-items: center;
+     background: #4d4d4d;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.inputText-Box .inputText-Icon{
+    background: #353535;
+    height: 100%;
+    width: 20%;
+}
+.inputText-Box .inputText-placeHolder{
+    border: none;
+    outline: none;
+    color: #fff;
+    background: transparent;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 100%;
+}
+
+.inputText-Box .inputText-placeHolder:-webkit-autofill{
+    -webkit-text-fill-color: #fff !important;
+    transition: background-color 5000s;
+}
+
+.inputText-Box .inputText-placeHolder::placeholder{
+    color: #a1a1a1;
+}

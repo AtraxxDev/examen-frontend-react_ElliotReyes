@@ -1,4 +1,6 @@
 import { useNavigate } from 'react-router-dom';
+import { ProfileCard } from "../../Components/ProfileCard/ProfileCard";
+import { ProfileLayout } from '../../Layouts/ProfileLayout/ProfileLayout';
 
 const Profile = () => {
   const navigate = useNavigate();
@@ -9,10 +11,9 @@ const Profile = () => {
   };
 
   return (
-    <div>
-      <h1>Profile</h1>
-      <input type="button" value="Cerrar sesión" onClick={handleLogout} />
-    </div>
+    <ProfileLayout>
+      <ProfileCard onClickBtn={handleLogout}/>
+    </ProfileLayout>   
   );
 };
 

@@ -1,0 +1,66 @@
+.profileCard-Content {
+  margin-top: 80px; 
+  text-align: center;
+}
+
+.profileCard-Name {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.profileCard-Email {
+  color: rgb(99, 99, 99);
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.profileCard-Location {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+
+
+.profileCard-Grid {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+
+.profileCard-GridItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gridItem-value {
+  font-weight: 700;
+  font-size: 2rem;
+  color: rgb(78, 78, 78);
+}
+
+.gridItem-label {
+  font-size: 1rem;
+  color: black;
+  margin-top: 5px;
+}
+
+.profileCard-PersonalInfo {
+  font-size: 1.1rem;
+  color:rgb(43, 43, 43);
+  line-height: 1.4;
+  padding-right: 20%;
+}
+
+.profileCard-PersonalInfo p {
+  margin: 6px 0;
+}
